@@ -1,3 +1,6 @@
+/**
+ * Count average events per second in a timespan
+ */
 class DeltaCounter {
     private ticks = 0
     private reportingTime : number
@@ -9,10 +12,18 @@ class DeltaCounter {
         this.onReportFunction = onReportFunction
     }
 
+    /**
+     * Increase counter in current interval
+     * @returns number of ticks since beginning of current interval
+     */
     tick() {
         return ++this.ticks
     }
 
+    /**
+     * Set interval and start
+     * @returns this
+     */
     start(){
         if (this.countInterval === null){
             this.countInterval = setInterval(()=> {
@@ -24,6 +35,10 @@ class DeltaCounter {
         return this
     }
 
+    /**
+     * Stop and clear interval
+     * @returns this
+     */
     stop(){
         if (this.countInterval != null) {
            clearInterval(this.countInterval) 
