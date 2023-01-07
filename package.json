@@ -1,6 +1,6 @@
 {
   "name": "delta-counter",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "type": "module",
@@ -19,7 +19,8 @@
   "keywords": [
     "counter",
     "timer",
-    "interval"
+    "interval",
+    "setInterval"
   ],
   "author": "",
   "license": "MIT",

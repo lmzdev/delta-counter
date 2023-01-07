@@ -1,7 +1,7 @@
 # delta-counter
 [![npm Build/Test](https://github.com/lmzdev/delta-counter/actions/workflows/node.js.yml/badge.svg)](https://github.com/lmzdev/delta-counter/actions/workflows/node.js.yml)
 
-Count average events per second in a timespan. Just like adding a tally counter to ```setInterval()```
+Count average events per second in a timespan. Just like adding a tally counter to ```setInterval()```.
 
 ## Example/Concept
 ```js
