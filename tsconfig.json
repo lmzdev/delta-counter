@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "declarationDir": "./lib",
+      "declaration": true,
+      "module": "ES2022",
+      "target": "ES2022",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "rootDir": "src",
+      "types": ["node"],
+      "lib": ["ES2022"],
+      "esModuleInterop": true,
+      "outDir": "./lib"
+    },
+    "lib": ["es2021"],
+    "files": ["src/index.ts"],
+    "exclude": ["node_modules","lib"]
+}
