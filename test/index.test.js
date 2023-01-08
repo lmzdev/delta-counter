@@ -1,4 +1,4 @@
-import { DeltaCounter } from "../lib/index.js";
+import { DeltaCounter } from "../lib/mjs/index.js";
 import assert from 'node:assert/strict'
 
 
