@@ -1,13 +1,13 @@
 {
   "name": "delta-counter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
-  "main": "./lib/index.js",
+  "main": "./lib/cjs/index.js",
   "type": "module",
   "exports": {
     ".":  {
-    "import": "./lib/cjs/index.js",
-    "require": "./lib/mjs/index.js"
+    "require": "./lib/cjs/index.js",
+    "import": "./lib/mjs/index.js"
   }
   },
   "scripts": {
