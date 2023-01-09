@@ -1,5 +1,5 @@
-import { DeltaCounter } from "../lib/mjs/index.js";
-import assert from 'node:assert/strict'
+const {DeltaCounter} = require('../lib/cjs/index.js')
+const assert = require('node:assert/strict')
 
 
 describe('Test DeltaCounter Class',()=>{
